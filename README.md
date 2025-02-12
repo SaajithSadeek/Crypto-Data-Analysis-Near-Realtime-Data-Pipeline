@@ -14,3 +14,7 @@ The **Crypto Data Analysis Near Realtime Data Pipeline** is an industrial projec
   - AWS S3
   - AWS Glue (Glue Crawler, Glue Catalog, Glue Triggers, Glue Jobs)
   - AWS Athena
+- Framework:
+  - Apache Hudi
+  - Apache Spark
+        
