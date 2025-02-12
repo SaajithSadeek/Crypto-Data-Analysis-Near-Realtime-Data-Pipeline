@@ -1,6 +1,7 @@
 # Crypto Data Analysis Near Realtime Data Pipeline
 
 ## 📌 Project Overview
+
 The **Crypto Data Analysis Near Realtime Data Pipeline** is an industrial project designed to process cryptocurrency transaction data in near real-time. This project leverages AWS services to efficiently capture, transform, and store the data for further analysis using AWS Athena.
 
 ## 🏗 Tech Stack
@@ -19,3 +20,9 @@ The **Crypto Data Analysis Near Realtime Data Pipeline** is an industrial projec
   - Apache Spark
 
 ## 🔄 Data Pipeline Workflow
+
+1. Setup AWS DynamoDB & Kinesis Data Stream.
+  - Create a **DynamoDB table** to store cryptocurrency transactions.
+  - Enable **Change Data Capture (CDC)** stream on DynamoDB.
+  - Configure **AWS Kinesis Data Stream** to capture CDC changes.
+2. 
