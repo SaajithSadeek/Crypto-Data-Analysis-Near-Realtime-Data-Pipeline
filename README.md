@@ -17,4 +17,5 @@ The **Crypto Data Analysis Near Realtime Data Pipeline** is an industrial projec
 - Framework:
   - Apache Hudi
   - Apache Spark
-        
+
+## 🔄 Data Pipeline Workflow
