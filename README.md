@@ -22,7 +22,7 @@ The **Crypto Data Analysis Near Realtime Data Pipeline** is an industrial projec
 ## 🔄 Data Pipeline Workflow
 
 1. Setup AWS DynamoDB & Kinesis Data Stream.
-  - Create a **DynamoDB table** to store cryptocurrency transactions.
-  - Enable **Change Data Capture (CDC)** stream on DynamoDB.
-  - Configure **AWS Kinesis Data Stream** to capture CDC changes.
+    - Create a **DynamoDB table** to store cryptocurrency transactions.
+    - Enable **Change Data Capture (CDC)** stream on DynamoDB.
+    - Configure **AWS Kinesis Data Stream** to capture CDC changes.
 2. 
